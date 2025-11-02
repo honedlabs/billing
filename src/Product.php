@@ -31,7 +31,7 @@ class Product implements Arrayable, JsonSerializable, UrlRoutable
     /**
      * The name of the product.
      *
-     * @var string
+     * @var ?string
      */
     protected $name;
 
